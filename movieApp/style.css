@@ -1,3 +1,7 @@
+
+body{
+  background-color: black;
+}
 .flex{
     display: flex;
 }
@@ -157,4 +161,9 @@ h4 {
     border: 0.25rem solid var(--clr-gold);
     border-radius: var(--radius);
   }
-  
+  h1,h2,h3{
+    font-size: 20px;
+  }
+  .inlineBlock{
+    display: inline-block;
+  }
