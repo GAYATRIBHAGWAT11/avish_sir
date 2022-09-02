@@ -1,0 +1,160 @@
+.flex{
+    display: flex;
+}
+
+.header{
+    background-color: RED;
+    padding: .5em 0;
+    position: sticky;
+    top:0;
+    left:0;
+    z-index: 10;
+    justify-content: space-between;
+}
+.container{
+    justify-content: space-between;
+}
+
+.priority-container{
+    background-color: white;
+    padding: .5em;
+    height: 3rem;
+    width: 50%;
+    cursor: pointer;
+    border-radius: 25px;
+
+}
+.task-button{
+    padding: 0.8em;
+    width: 100%;
+    font-size: 1rem;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+}
+.priority-movie-small{
+    height: 2rem;
+    width: 20%;
+}
+.priority-container>*{
+    margin-left: 1.5em;
+    border-radius: 8px;
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+    padding: 8px;
+}
+/* model */
+/* .task-modal{
+    height: var(--modal-height);
+    width: var(--modal-width);
+    position: absolute;
+    top: calc((100vh - var(--modal-height))/2);
+    left: calc((100vw - var(--modal-width))/2);
+    display: none;
+    z-index: 1;
+  color: blue;
+} */
+.task-modal{
+    margin: 200px;
+    outline: 5px solid darkgray;
+    position: relative;
+    display: none;
+}
+.cancel-btn{
+    position: absolute;
+    top: 0.2em;
+    right: 0.2em;
+    font-size: 1rem;
+    color: red;
+}
+/* .done-btn{
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+    left: 35%;
+    padding: 0.6em 1em;
+    background-color: #E4B363;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+} */
+input{
+    height: 50px;
+}
+.flex-direction{
+    flex-direction: column;
+}
+#container{
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+.blur {
+    filter: blur(3px);
+}
+select{
+    height: 50px;
+}
+button{
+    height: 50px;
+    font-weight: 500;
+}
+.cancel-btn{
+    position: absolute;
+}
+h4 {
+    letter-spacing: var(--spacing);
+    text-transform: capitalize;
+    line-height: 1.25;
+    margin-bottom: 0.75rem;
+    font-family: var(--ff-primary);
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.25rem;
+  }
+  h4 {
+    font-size: 0.875rem;
+  }
+  @media screen and (min-width: 800px) {
+    h1 {
+      font-size: 4rem;
+    }
+    h2 {
+      font-size: 2.5rem;
+    }
+    h3 {
+      font-size: 1.75rem;
+    }
+    h4 {
+      font-size: 1rem;
+    }
+    body {
+      font-size: 1rem;
+    }
+    h1,
+    h2,
+    h3,
+    h4 {
+      line-height: 1;
+    }
+  }
+  .photo {
+    object-fit: cover;
+    height: 200px;
+    border: 0.25rem solid var(--clr-gold);
+    border-radius: var(--radius);
+  }
+  

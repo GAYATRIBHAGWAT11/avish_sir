@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,600&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="container flex">
+            <div class="priority-container flex">
+                <div class="priority-movie-small categories">Movie category</div>
+                <div class="priority-small rate ">Ratings</div>
+            </div>
+            <div>
+                <button class="task-button">
+                    Search 
+                </button>
+            </div>
+        </div>
+    </header>
+
+
+    <div id="container flex">
+        <form class="task-modal flex flex-direction" id="addForm">
+            <input id="name" type="text" placeholder="enter movie">
+
+            <select id="select">
+                <option value="Action">Action</option>
+                <option value="Drama">Drama</option>
+                <option value="Comedy">Comedy</option>
+            </select>
+            <input type="text" id="link" placeholder="Enter image link">
+            <input type="text" id="rating" placeholder="Ratings">
+            <input type="text" id="actor" placeholder="enter actor">
+            <input type="text" id="actress" placeholder="enter actress">
+            <input type="text" id="videoLink" placeholder="enter video link">
+            <button type="submit" id="submitbtn">ADD</button>
+            <button id="playbtn">TRAILER</button>
+            <!-- <button onclick="window.open(`${}`)">PLAY</button> -->
+            <i class="fas fa-times cancel-btn"></i>
+            <button class="done-btn">Done</button>
+        </form>
+    </div>
+    <div id="task-container">
+        <!-- <div>
+            <h1>name</h1>
+            <h2>category</h2>
+            <img src="" alt="">
+    
+        </div> -->
+    </div>
+
+
+    <script src="main.js">
+    </script>
+</body>
+
+</html>
