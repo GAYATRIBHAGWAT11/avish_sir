@@ -184,10 +184,10 @@ function filterByCategory(){
     array.map((d) => {
       console.log("d", d);
       let div = document.createElement("div");
-      div.style.width='350px';
+      div.style.width='300px';
       div.style.height='500px';
-      div.style.margin='10px';
-      div.style.paddingLeft='15px'
+      div.style.margin='5px';
+      div.style.paddingLeft='10px'
     //   div.style.boxShadow='borderBox';
     div.style.border='5px solid black';
     div.style.textAlign='center'
@@ -213,7 +213,7 @@ function filterByCategory(){
 
     trailer.setAttribute("href",d.trailer) ;
     trailer.textContent=d.trailer;
-    trailer.innerText="Trailer";
+    trailer.innerText="Watch Trailer";
     trailer.setAttribute("target","_blank");
 
     actor.textContent = `Actor: ${d.actor}`;
