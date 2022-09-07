@@ -1,0 +1,31 @@
+
+  .meme-generator {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+  }
+  
+  .meme-generator img {
+    height: 430px;
+    object-fit: cover;
+  }
+  
+  .meme-generator .generate-meme-btn {
+    padding: 8px 20px;
+    margin: 24px 0;
+    font-size: 20px;
+    color: #f64d4d;
+    background: #fff;
+    cursor: pointer;
+    background-color: black;
+  }
+  
+  .meme-generator .generate-meme-btn:hover {
+    padding: 8px 36px;
+    letter-spacing: 3px;
+  }
+  
+  .meme-generator .meme-author {
+    margin: 8px;
+  }
+ 
+  
